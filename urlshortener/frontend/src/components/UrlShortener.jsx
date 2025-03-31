@@ -12,7 +12,7 @@ const UrlShortener = () => {
     }
 
     try {
-      const response = await axios.post("http://localhost:5000/shorten", {
+      const response = await axios.post("https://linktrim-bz7z.onrender.com/shorten", {
         longUrl,
       });
 
