@@ -15,7 +15,7 @@ app.post("/shorten", (req, res) => {
 
   const shortId = nanoid(6);
   urlDatabase[shortId] = longUrl;
-  const shortUrl = `http://localhost:5000/${shortId}`;
+  const shortUrl = `https://linktrim-bz7z.onrender.com/${shortId}`;
 
   res.json({ shortUrl });
 });
