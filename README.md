@@ -30,8 +30,6 @@ LinkTrim is a lightweight and efficient URL shortener that converts long URLs in
   
     - React.js – Provides a dynamic and interactive UI
 
-    - Tailwind CSS – Styles the application with modern, responsive design
-
     - Fetch API – Communicates with the backend to generate short links
 
 # How It Works
